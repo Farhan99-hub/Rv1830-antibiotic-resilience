@@ -1,0 +1,9 @@
+# Python dependencies for the Rv1830 (ResR) analysis.
+# Tested with Python 3.11-3.13. Install with:  pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+statsmodels>=0.14
+openpyxl>=3.1
+python-docx>=1.1
+matplotlib>=3.7

@@ -1,0 +1,111 @@
+{
+ "n_total": 40276,
+ "n_carriers": 839,
+ "lineage": {
+  "carrier_OR_crude": [
+   1.69,
+   1.47,
+   1.95
+  ],
+  "carrier_OR_adj_lineage_collection": [
+   1.76,
+   1.52,
+   2.05
+  ],
+  "nonD144N_OR_adj": [
+   2.11,
+   1.77,
+   2.51
+  ],
+  "D144N_OR_adj": [
+   0.92,
+   0.66,
+   1.28
+  ],
+  "nonD144N_within_L4_OR": [
+   1.61,
+   1.25,
+   2.07
+  ],
+  "D144N_lineage": {
+   "L4": 150,
+   "Mixed": 1
+  }
+ },
+ "heterogeneity": {
+  "random_effects_OR": [
+   1.8,
+   1.17,
+   2.76
+  ],
+  "I2_percent": 87.0,
+  "tau2": 0.123,
+  "Q_p": 0.0004
+ },
+ "mic_stratified": {
+  "RIF_rpoB_WT": {
+   "nC": 103,
+   "nN": 3273,
+   "medC": 0.12,
+   "medN": 0.12,
+   "p": 0.1924
+  },
+  "RIF_rpoB_mut": {
+   "nC": 170,
+   "nN": 11349,
+   "medC": 4.0,
+   "medN": 0.25,
+   "p": 0.0015
+  },
+  "INH_target_WT": {
+   "nC": 86,
+   "nN": 3947,
+   "medC": 0.05,
+   "medN": 0.05,
+   "p": 0.7853
+  },
+  "INH_target_mut": {
+   "nC": 186,
+   "nN": 10686,
+   "medC": 1.6,
+   "medN": 1.6,
+   "p": 0.0003
+  }
+ },
+ "outcomes": {
+  "broad_died_fail_ltfu": {
+   "definition": "Died+Failure+LTFU",
+   "n": 8369,
+   "carrier_unfav_pct": 28.9,
+   "noncarrier_unfav_pct": 24.4,
+   "crude_OR": [
+    1.26,
+    0.9,
+    1.77
+   ],
+   "adj_OR": [
+    1.15,
+    0.81,
+    1.63
+   ],
+   "adj_p": 0.429
+  },
+  "strict_died_fail": {
+   "definition": "Died+Failure",
+   "n": 7660,
+   "carrier_unfav_pct": 20.8,
+   "noncarrier_unfav_pct": 17.5,
+   "crude_OR": [
+    1.24,
+    0.83,
+    1.85
+   ],
+   "adj_OR": [
+    1.1,
+    0.73,
+    1.65
+   ],
+   "adj_p": 0.649
+  }
+ }
+}
